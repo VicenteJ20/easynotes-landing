@@ -1,0 +1,41 @@
+.Navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 3rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--background-yellow);
+}
+
+.brand{
+  font-size: 1.2rem;
+}
+
+.colorBrand{
+  color: var(--standard-yellow);
+}
+
+.ulNav{
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+}
+
+.ulNav > li{
+  font-size: 1.35rem;
+  font-weight: 500;
+  color: var(--dark-grey-text);
+}
+
+.signUpBtn{
+  font-size: 1.2rem;
+  border: none;
+  background-color: #F8D683;
+  padding: 0.7rem 2rem;
+  border-radius: 2rem;
+  font-weight: 700;
+  transition: 0.5s all ease;
+}

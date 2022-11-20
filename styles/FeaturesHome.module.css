@@ -1,0 +1,28 @@
+.FeaturesHome{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 3.5rem;
+  margin: 4rem auto;
+  max-width: 90%;
+}
+
+.FeatureCard{
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  line-height: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  transition: 0.7s all ease;
+  cursor: pointer;
+}
+
+.FeatureCard > div > h3 {
+  font-size: 1.4rem;
+
+}
+
+.FeatureCard:hover{
+  box-shadow: 0 0 30px 5px var(--standard-yellow);
+}
