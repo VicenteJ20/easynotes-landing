@@ -1,0 +1,94 @@
+.Footer{
+  padding: 7rem 3rem 1rem 3rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bannerFooter {
+  min-height: 25rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.bannerFooter > h2{
+  font-size: 3rem;
+}
+
+.buttonFooter {
+  background-color: var(--standard-yellow);
+  padding: 0.7rem 2rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 2rem;
+  display: block;
+  transition: 0.7s all ease;
+}
+
+.buttonFooter:hover {
+  background-color: var(--dark-grey-text);
+}
+
+.FullFooter {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 1rem;
+  border-top: 3px solid var(--dark-grey-text);
+  padding-top: 2rem;
+}
+
+.FirstDiv{
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+}
+
+.FirstDiv > ul{
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-around;
+}
+
+.FirstDiv > ul > li {
+  font-size: 1.6rem;
+  color: var(--dark-grey-text);
+}
+
+.FirstDiv > ul > li > a{
+  transition: 0.7s all ease;
+}
+
+.FirstDiv > ul > li > a:hover {
+  color: var(--standard-yellow);
+}
+
+.FullFooter > div {
+  padding: 1rem;
+
+}
+
+.divInternalFooter > ul{
+  padding-left: 2rem;
+  margin-top: 1rem;
+  line-height: 3;
+}
+
+.divInternalFooter > ul > li > a{
+  transition: 0.5s all ease;
+}
+
+.divInternalFooter > ul > li > a:hover {
+  color: var(--standard-yellow);
+}
+
+.FooterElement{
+  font-weight: 500;
+}

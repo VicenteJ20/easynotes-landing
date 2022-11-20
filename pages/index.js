@@ -4,6 +4,8 @@ import homeImg from '../public/assets/homeImg.png'
 import Image from 'next/image'
 import Link from 'next/link'
 import { WhatCanIdo } from '../components/whatCanIdo'
+import { Subscriptions } from '../components/Subscriptions'
+import { Footer } from '../components/Footer'
 
 export default function Home() {
   return (
@@ -26,6 +28,8 @@ export default function Home() {
         </div>
       </section>
       <WhatCanIdo />
+      <Subscriptions />
+      <Footer />
     </>
   )
 }
