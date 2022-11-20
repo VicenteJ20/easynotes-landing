@@ -1,11 +1,11 @@
 [
   {
-    "iconName": "note.png",
+    "iconName": "notes.png",
     "title": "Crea notas y mantente organizado y productivo",
     "description": "Puedes crear notas fácilmente, editar su fuente, tamaño del texto, cambiar su color, marcarlas como importante, y mucho más."
   },
   {
-    "iconName": "bell.png",
+    "iconName": "reminders.png",
     "title": "Establece recordatorios y despreocupate",
     "description": "Puedes crear recordatorios personalizados y recibir notificaciones en horarios predefinidos, de esta manera puedes concentrarte en lo importante."
   },
@@ -15,7 +15,7 @@
     "description": "Con el calendario integrado puedes crear reservaciones para tus citas, reuniones, entre muchos otros usos. De esa manera, no te pierdes ningún momento importante."
   },
   {
-    "iconName": "gethelp.png",
+    "iconName": "support.png",
     "title": "¿Problemas? Contacta con especialistas",
     "description": "Puedes crear notas fácilmente, editar su fuente, tamaño del texto, cambiar su color, marcarlas como importante, y mucho más."
   },

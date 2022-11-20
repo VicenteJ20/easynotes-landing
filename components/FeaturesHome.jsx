@@ -6,7 +6,7 @@ const FeatureCard = ({ icon, title, description }) => {
   return (
     <div className={style.FeatureCard}>
       <header>
-        <Image src={`/public/assets/icons/calendar.png`} alt="" width={42} height={42}
+        <Image src={`/icons/${icon}`} alt="" width={42} height={42}
 />
       </header>
       <div className={style.titleDiv}>
