@@ -24,7 +24,7 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.gridRight}>
-          <Image src={homeImg} alt='' />
+          <Image className={styles.imageHome} src={homeImg} alt='' />
         </div>
       </section>
       <WhatCanIdo />

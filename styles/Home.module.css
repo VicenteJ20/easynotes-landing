@@ -27,6 +27,11 @@
   justify-content: flex-end;
 }
 
+.imageHome{
+  max-width: 100%;
+  height: auto;
+}
+
 .subtitle{
   font-size: 1.5rem;
   font-weight: 500;
@@ -48,4 +53,22 @@
 
 .buttonLogIn:hover{
   background-color: var(--standard-yellow);
+}
+
+@media screen and (max-width: 830px){
+  .Home{
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .gridRight{
+    grid-row-start: 1;
+    max-width: 40%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .gridRight{
+    max-width: 90%;
+  }
 }

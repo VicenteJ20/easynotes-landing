@@ -25,3 +25,9 @@
   color: var(--dark-grey-text);
   font-weight: 500;
 }
+
+@media screen and (max-width: 480px){
+  .Header > p {
+    max-width: 90%;
+  }
+}

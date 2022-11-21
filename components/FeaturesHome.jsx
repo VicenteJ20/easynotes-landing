@@ -6,8 +6,7 @@ const FeatureCard = ({ icon, title, description }) => {
   return (
     <div className={style.FeatureCard}>
       <header>
-        <Image src={`/icons/${icon}`} alt="" width={52} height={52}
-/>
+        <Image src={`/icons/${icon}`} alt="" width={42} height={42}/>
       </header>
       <div className={style.titleDiv}>
         <h3>{title}</h3>

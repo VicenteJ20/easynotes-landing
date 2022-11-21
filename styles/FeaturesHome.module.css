@@ -26,3 +26,9 @@
 .FeatureCard:hover{
   box-shadow: 0 0 30px 5px var(--standard-yellow);
 }
+
+@media screen and (max-width: 1400px){
+ .FeaturesHome{
+  grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+ }
+}

@@ -5,9 +5,9 @@
 
 .gridSubscription{
   display: grid;
-  grid-template-columns: repeat(2, minmax(20rem, 25%));
+  grid-template-columns: repeat(2, minmax(25rem, 25%));
   justify-content: center;
-  gap: 2rem;
+  gap: 4rem 2rem;
   margin: 2.5rem 0;
 }
 
@@ -70,4 +70,20 @@
   display: flex;
   align-items: center;
   gap: 0.7rem;
+}
+
+@media screen and (max-width: 630px){
+  .gridSubscription {
+    grid-template-columns: 70%;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .gridSubscription {
+    grid-template-columns: 80%;
+  }
+
+  .gridSubscription > div{
+    gap: 3rem;
+  }
 }

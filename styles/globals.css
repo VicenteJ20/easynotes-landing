@@ -36,3 +36,15 @@ a {
     background: rgb(31, 29, 27);
   }
 }
+
+@media screen and (max-width: 1400px){
+  html{
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 480px){
+  html{
+    font-size: 10px;
+  }
+}

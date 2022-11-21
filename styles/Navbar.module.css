@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2rem 3rem;
+  padding: 1.5rem 3rem;
   position: fixed;
   top: 0;
   left: 0;
@@ -38,4 +38,97 @@
   border-radius: 2rem;
   font-weight: 700;
   transition: 0.5s all ease;
+  transition: 0.7s all ease;
+}
+
+
+.signUpBtn:hover{
+  background-color: var(--dark-grey-text);
+  color: #fff;
+}
+
+.buttonMobile{
+  display: none;
+}
+
+.navContent{
+  display: contents;
+}
+
+
+@media screen and (max-width: 724px){
+  .buttonMobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 2rem;
+    width: 2rem;
+    border: none;
+    cursor: pointer;
+    background: none;
+  }
+
+  .buttonMobile > div{
+    background-color: var(--dark-grey-text);
+    height: 4px;
+    border-radius: 3px;
+    width: 2rem;
+    transition: 1s all ease;
+    transform-origin: right;
+  }
+
+  .buttonMobile:hover div:first-child{
+    transform: rotate(-45deg);
+  }
+
+  .buttonMobile:hover div:nth-child(2){
+    opacity: 0;
+  }
+
+  .buttonMobile:hover div:nth-child(3){
+    transform: rotate(45deg);
+  }
+
+  .buttonMobile,
+  .brand{
+    position: absolute;
+    top: 2rem;
+  }
+
+  .buttonMobile{
+    right: 2rem;
+  }
+
+  .navContent{
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    height: 0vh;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.5s all ease;
+  }
+
+  .navContent.isActive{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    opacity: 1;
+    transition: 0.5s ease all;
+  }
+  .navContent.isActive > div > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin: 2rem 0;
+    align-items: center;
+  }
+  .navContent.isActive > div > ul > li{
+    font-size: 2rem;
+  }
+
+  .signUpBtn{
+    margin: 0 auto;
+  }
 }

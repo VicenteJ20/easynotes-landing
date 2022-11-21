@@ -92,3 +92,25 @@
 .FooterElement{
   font-weight: 500;
 }
+
+@media screen and (max-width: 900px){
+  .FullFooter {
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  }
+}
+
+@media screen and (max-width: 590px){
+  .FullFooter {
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  }
+}
+
+@media screen and (max-width: 480px){
+  .bannerFooter{
+    min-height: 30rem;
+    gap: 2rem;
+  }
+  .bannerFooter > h2 {
+    font-size: 2.5rem;
+  }
+}
