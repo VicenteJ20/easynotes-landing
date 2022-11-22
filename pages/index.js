@@ -8,6 +8,7 @@ import { Subscriptions } from '../components/Subscriptions'
 import { Footer } from '../components/Footer'
 
 export default function Home() {
+
   return (
     <>
       <Head><title>EasyNotes - Home</title></Head>

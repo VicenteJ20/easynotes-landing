@@ -12,7 +12,7 @@ export function Navbar () {
   return (
     <header className={style.Navbar}>
       <div className={style.brand}>
-        <h2 onClick={setupMenu}><Link href='/'>Easy<span className={style.colorBrand}>Notes</span></Link></h2>
+        <h2><Link href='/'>Easy<span className={style.colorBrand}>Notes</span></Link></h2>
       </div>
       <div className={`${style.navContent} ${active ? style.isActive : ''}`}>
         <div>
@@ -23,7 +23,7 @@ export function Navbar () {
             </ul>
         </div>
         <div>
-          <span onClick={setupMenu}><Link href='/' className={style.signUpBtn}>Registrarse</Link></span>
+          <span onClick={setupMenu}><Link href='/login' className={style.signUpBtn}>Registrarse</Link></span>
         </div>
       </div>
       <div className={style.buttonMobile} onClick={setupMenu}>
